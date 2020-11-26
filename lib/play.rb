@@ -36,7 +36,7 @@ def turn(board)
 end
 
 def play(board)
-  while turn(board) 
+  while turn(board) == true
     move(board, index)
     turn += 1
   end
