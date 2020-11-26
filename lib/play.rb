@@ -35,8 +35,8 @@ def turn(board)
   end
 end
 
-def play(board)
+def play
   while turn == 9
     move(board, index)
     turn += 1
-end 
+end
